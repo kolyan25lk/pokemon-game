@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from "./App"
+import './index.css' ;
 
-  //  const el = React.createElement(
- //   'h1',
- //   null,
- // 'Hello world, React.js!!!!'
-// );
-const el = <h1>Hello World!</h1>
-console.log(el);
-ReactDOM.render(el, document.getElementById('root'));
+
+
+ReactDOM.render(<App />, document.getElementById('root'));
